@@ -9,6 +9,6 @@ metadata:
 
 managedNodeGroups:
   - name: spot
-    instanceTypes: ["t2.micro","t3.micro"] # Multiple types for better Spot availability
+    instanceTypes: ["t2.micro","t3.micro", "t3.small"] # Multiple types for better Spot availability
     spot: true
     desiredCapacity: 2
